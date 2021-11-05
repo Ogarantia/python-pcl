@@ -723,10 +723,10 @@ else:
             vtk_library_dir = os.path.join('/usr/lib')
         elif pcl_version == '-1.8':
             # pcl 1.8.0/1?(Ubuntu 18.04)(melodic)
-            vtk_version = '7.0'
+            vtk_version = '7.1'
             # pcl 1.8.1?
             # vtk_version = '8.0'
-            vtk_include_dir = os.path.join('/usr/include/vtk-' + vtk_version)
+            vtk_include_dir = os.path.join('/usr/local/include/vtk-' + vtk_version)
             vtk_library_dir = os.path.join('/usr/lib')
         elif pcl_version == '-1.9':
             # pcl 1.9.1
